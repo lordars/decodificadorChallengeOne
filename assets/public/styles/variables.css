@@ -1,6 +1,22 @@
-
-
 :root {
-    --blue: #1e90ff;
-    --white: #ffffff;
-  }
+
+  /*  colores usados para interface */
+  --varBackgroundColor: #F3F5FC;
+  --varBaseColorPrimary: #1e90ff;
+  --varBaseColorSecundary: #ffffff;
+
+
+  /* Panel lateral direito */
+  --varBaseColorPanel: #ADD8E6;
+
+
+  /* Formatação textos e color */
+
+  --varBaseColor_TextPrimary: #0A3871;
+  --varBaseColor_TextSecundary: #ffffff;
+
+  /* Formatação de  buttons */
+
+  --varColorButtonCript: #0A3871;
+  --varColorButtonDecript: #D8DFE8;
+}
