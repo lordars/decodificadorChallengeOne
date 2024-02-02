@@ -111,8 +111,11 @@ function Decript() {
 
 }
 
-
-
-function Copiar() {
+function Copy() {
+    let clip = document.getElementById('message').innerHTML;
+    navigator.clipboard.writeText(clip);
+    document.getElementById("message").innerText = ('Copiado ' + clip + ' para a Área de Trânsferência...');
 
 }
+
+
